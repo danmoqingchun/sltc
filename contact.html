@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>联系我们</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/contact.css"/>	
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6vvqoVROdWsq64FDVM0kaVO1F65oGOOR"></script>
+	    <script type="text/javascript" language="JavaScript" src="js/map.js"></script>
+	    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.source.js"></script>
+		<script type="text/javascript" src="js/value.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="nav">
+				<a href="index.html"><img src="img/logo.jpg" /></a>
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="about.html">公司介绍</a></li>
+					<li><a href="news.html">新闻中心</a></li>
+					<li><a href="product.html">产品中心</a></li>
+					<li><a class="current" href="contact.html">联系我们</a></li>
+				</ul>
+			</div>			
+		</div>		
+		<div class="banner">
+			<div class="slidebox">
+				<div class="picture">
+					<ul>							    
+					    <li><a href="#"><img src="img/banner2.png" alt=""/></a></li>
+					    <li><a href="#"><img src="img/banner1.png" alt=""/></a></li>
+					    <li><a href="#"><img src="img/banner3.png" alt=""/></a></li>
+					</ul>
+				</div>
+				<div class="btn">
+				    <ul>
+					    <li class="on"></li>
+					    <li></li>
+					    <li></li>					
+				    </ul>
+				</div>
+			</div>
+		</div>				
+		<div class="content">
+			<div class="location">
+				<ul class="fl">
+					<li class="current"><a href="contact.html">联系方式</a></li>				
+				</ul>
+				<ul class="fr">
+					<li><a href="index.html">首页</a><span>/</span></li>
+					<li><a href="contact.html">联系我们</a><span>/</span></li>
+					<li class="current"><a href="#">联系方式</a></li>
+				</ul>				
+			</div>
+			<div class="main">
+				<div class="map" id="map"></div>
+				<form id="form">
+					<h3>留言板Massage</h3>					
+					<input type="text" placeholder="姓名" value="姓名"/>		
+					<textarea placeholder="你的留言........">你的留言........</textarea>
+					<input type="text" placeholder="电话" value="电话"/>					
+					<input type="text" placeholder="邮箱" value="邮箱"/>
+					<input class="veri" type="text" placeholder="验证码" value="验证码"/>
+					<div class="veco"></div>					
+					<input class="sub" type="submit"  value="提交">
+					<input class="res" type="reset"  value="重置">											
+				</form>
+				<div class="text">
+					<p>客服热线：086-0318-7533369</p>
+					<p>企业邮箱：ShengliCeramics@163.com</p>
+					<p>公司地址：广东省佛山市禅城区南庄瓷海国际陶瓷交易中心季华西路</p>
+				</div>
+			</div>
+		</div>						
+		<div class="footer">
+			<div class="top">
+				<div class="main">
+					<dl>
+						<dt>公司介绍</dt>
+						<dd><a href="about.html">公司简介</a></dd>
+						<dd><a href="#">企业文化</a></dd>
+						<dd><a href="#">公司荣誉</a></dd>
+						<dd><a href="#">团队介绍</a></dd>
+					</dl>
+					<dl>
+						<dt>新闻中心</dt>
+						<dd><a href="news.html">企业新闻</a></dd>
+						<dd><a href="#">行业新闻</a></dd>
+						<dd><a href="#">国际资讯</a></dd>						
+					</dl>
+					<dl>
+						<dt>产品中心</dt>
+						<dd><a href="product.html">荷花茶具</a></dd>
+						<dd><a href="#">德化茶具</a></dd>
+						<dd><a href="#">定窑茶具</a></dd>
+						<dd><a href="#">香道香器</a></dd>
+					</dl>
+					<dl>
+						<dt>联系我们</dt>
+						<dd><a href="contact.html">联系方式</a></dd>						
+					</dl>
+				</div>	
+			</div>
+			<div class="bottom">
+				<p>北京市公安局朝阳分局备案编号:11010502000501</p>
+				<p>网络文化经营许可证 京网文[2016]6173-844号  广播电视节目制作经营许可证 （京）字第06990号</p>
+			</div>
+		</div>
+	</body>	
+	<script type="text/javascript">
+		jQuery(".slidebox").slide({mainCell:".picture ul",titCell:".btn li",effect:"leftLoop",autoPlay:true,trigger:"click",titOnClassName:"on"});
+		$('form').Form();
+	</script>
+</html>

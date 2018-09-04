@@ -1,0 +1,8 @@
+.content .main{width:1090px;height:auto;margin:44px 0px 29px 55px;}
+.content .main ul{width:1143px;height:auto;}
+.content .main ul li{width:328px;height:293px;float:left;margin-right:53px;position:relative;margin-bottom:82px;}
+.content .main ul li a img{display: block;width:328px;height:293px;}
+.content .main  h2{width:328px;height:42px;position:absolute;bottom:0px;left:0px;text-align:center;line-height:42px;background:#333333;display:none;}
+.content .main ul li h2 a{font-family:"微软雅黑";font-size:18px;}
+.content .main ul li:hover h2{display: block;color:#f0f0f0;}
+.content .main ul li:hover h2 a{display: block;color:#f0f0f0;}                    

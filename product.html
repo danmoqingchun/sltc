@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>产品中心</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/product.css"/>
+		<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.source.js"></script>
+	</head>	
+	<body> 
+		<div class="header">
+			<div class="nav">
+				<a href="index.html"><img src="img/logo.jpg" alt=""/></a>
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="about.html">公司介绍</a></li>
+					<li><a href="news.html">新闻中心</a></li>
+					<li><a class="current" href="product.html">产品中心</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+				</ul>
+			</div>			
+		</div>		
+		<div class="banner">
+			<div class="slidebox">
+				<div class="picture">
+				    <ul>
+					    <li><a href="#"><img src="img/banner1.png" alt=""/></a></li>
+					    <li><a href="#"><img src="img/banner2.png" alt=""/></a></li>
+					    <li><a href="#"><img src="img/banner3.png" alt=""/></a></li>
+				    </ul>
+				</div>
+				<div class="btn">
+				    <ul>
+					    <li class="on"></li>
+					    <li></li>
+					    <li></li>					
+				    </ul>
+				</div>
+			</div>
+		</div>				
+		<div class="content">
+			<div class="location">
+				<ul class="fl">
+					<li class="current"><a href="product.html">荷花茶具</a></li>
+					<li><a href="#">德化茶具</a></li>
+					<li><a href="#">定窑茶具</a></li>
+					<li><a href="#">香道香器</a></li>				
+				</ul>
+				<ul class="fr">
+					<li><a href="index.html">首页</a><span>/</span></li>
+					<li><a href="contact.html">联系我们</a><span>/</span></li>
+					<li class="current"><a href="#">联系方式</a></li>
+				</ul>				
+			</div>
+			<div class="main">
+				<ul>
+					<li>
+						<a href="pro_details.html"><img src="img/product01.jpg" alt=""/></a>
+						<h2><a href="pro_details.html">茶壶</a></h2>
+					</li>
+					<li>
+						<a href="pro_details.html"><img src="img/product02.jpg" alt=""/></a>
+						<h2><a href="pro_details.html">茶海</a></h2>
+					</li>
+					<li>
+						<a href="pro_details.html"><img src="img/product03.jpg" alt=""/></a> 
+						<h2><a href="pro_details.html">盖碗</a></h2>
+					</li>
+				</ul>
+				<div class="page">
+						<ol>
+							<li class="prev"><a href="#"></a></li>
+							<li class="current"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">6</a></li>
+							<li class="next"><a href="#"></a></li>
+						</ol>
+					</div>
+			</div>
+		</div>						
+		<div class="footer">
+			<div class="top">
+				<div class="main">
+					<dl>
+						<dt>公司介绍</dt>
+						<dd><a href="about.html">公司简介</a></dd>
+						<dd><a href="#">企业文化</a></dd>
+						<dd><a href="#">公司荣誉</a></dd>
+						<dd><a href="#">团队介绍</a></dd>
+					</dl>
+					<dl>
+						<dt>新闻中心</dt>
+						<dd><a href="news.html">企业新闻</a></dd>
+						<dd><a href="#">行业新闻</a></dd>
+						<dd><a href="#">国际资讯</a></dd>						
+					</dl>
+					<dl>
+						<dt>产品中心</dt>
+						<dd><a href="product.html">荷花茶具</a></dd>
+						<dd><a href="#">德化茶具</a></dd>
+						<dd><a href="#">定窑茶具</a></dd>
+						<dd><a href="#">香道香器</a></dd>
+					</dl>
+					<dl>
+						<dt>联系我们</dt>
+						<dd><a href="contact.html">联系方式</a></dd>						
+					</dl>
+				</div>	
+			</div>
+			<div class="bottom">
+				<p>北京市公安局朝阳分局备案编号:11010502000501</p>
+				<p>网络文化经营许可证 京网文[2016]6173-844号  广播电视节目制作经营许可证 （京）字第06990号</p>
+			</div>
+		</div>
+	</body>	
+	<script type="text/javascript">
+		jQuery(".slidebox").slide({mainCell:".picture ul",titCell:".btn li",effect:"leftLoop",autoPlay:true,
+		trigger:"click",titOnClassName:"on"});
+	</script>
+</html>

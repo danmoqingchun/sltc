@@ -1,0 +1,41 @@
+html{background:#fff;overflow:auto;}
+body{overflow: hidden;min-width:1200px;font:12px/18px "Microsoft Yahei";color:#000; font-weight:normal; -webkit-font-smoothing: antialiased; }
+a{color:#000; text-decoration:none; cursor:pointer; outline: 0 none;}
+a:hover{ text-decoration:none;color:#000;}
+a:focus{-moz-outline-style:none; border:0px;blr:expression(this.onFocus=this.blur());}
+:focus{ outline: none; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0; padding:0; border:0 none;}
+header,footer,article,aside,section,nav,menu,hgroup,details,dialog,figure,figcaption{display:block}
+ol,li,ul,dl,dt,dd{list-style:none;}
+fieldset,img {border:0}
+button,submit,input,select { vertical-align:middle;}
+button,submit { cursor:pointer;}
+textarea{ resize: none; overflow: hidden; }
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:lighter;}
+table{border-collapse:collapse; border-spacing:0;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+select,button{font-family:inherit; font-size:inherit; font-weight:inherit; outline-style:none; outline-width:0pt; padding: 0; margin: 0;}
+b,em,i{display:inline-block; font-weight:normal; font-style:normal;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix{ zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+.header{width:auto;height:76px;background:#f7f7f7;}
+.header .nav{width:1200px;height:76px;margin:0px auto;}
+.header .nav img{width:213px;height:76px;display:block;margin-left:100px;cursor:pointer;float:left;}
+.header .nav ul{width:auto;height:76px;line-height:76px;float:left;margin-left:287px;}
+.header .nav ul li{float:left;margin-right:58px;}
+.header .nav ul li a{font-family:"微软雅黑";font-size:14px;color:#737373;}
+.header .nav ul li a:hover{color:#333333;}
+.header .nav ul li .current{color:#333333;}
+.footer{width:auto;height:219px;background:#27231f;clear:both;}
+.footer .top{width:1200px;height:154px;margin:0px auto;}
+.footer .top .main{width:auto;height:auto;margin-left:320px;}
+.footer .top dl{width:161px;height:auto;padding-top:20px;float:left;}
+.footer .top dl dt{font-family:"微软雅黑";font-size:14px;color:#ffffff;} 
+.footer .top dl dd{margin-top:7px;}
+.footer .top dl dd a{width:54px;display: block;font-family:"微软雅黑";font-size:12px;color:#ffffff;}
+.footer .bottom{width:auto;height:37px;padding:13px 0px;border-top:2px solid #322e2a;}
+.footer .bottom p{font-family:"微软雅黑";font-size:12px;color:#ffffff;text-align:center;margin-bottom:3px;}
+
